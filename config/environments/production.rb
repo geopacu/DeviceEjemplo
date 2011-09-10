@@ -36,7 +36,7 @@ DeviseExample::Application.configure do
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
-  config.action_mailer.default_url_options = { :host => 'http://deviceejemplo.heroku.com/' }
+  config.action_mailer.default_url_options = { :host => 'deviceejemplo.heroku.com' }
   # ActionMailer Config
   # Setup for production - deliveries, no errors raised
   config.action_mailer.delivery_method = :smtp
